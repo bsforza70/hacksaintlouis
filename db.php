@@ -9,7 +9,7 @@ $db_username;
 $db_password;
 $db_name;
 
-if file_exists($_SERVER["DOCUMENT_ROOT"] . '/sql-auth.json') {
+if (file_exists($_SERVER["DOCUMENT_ROOT"] . '/sql-auth.json')) {
 	$credFile = file_get_contents($_SERVER["DOCUMENT_ROOT"] . '/sql-auth.json');
 	$creds = json_decode($credFile, true);
 
