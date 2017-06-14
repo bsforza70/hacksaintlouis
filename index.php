@@ -1,3 +1,14 @@
+<?php
+
+  require("db.php");
+  $mysqli = getDB();
+
+  if (isset($_POST["test"])) {
+
+  }
+
+?>
+
 <html>
   <head>
     <title>Hack Saint Louis</title>
@@ -30,5 +41,9 @@
   </head>
   <body>
     <div class="loader"></div>
+    <form method="post" action="./">
+      <input name="test" type="text">
+      <input type="submit">
+    </form>
   </body>
 </html>
