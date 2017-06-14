@@ -7,3 +7,17 @@
 	z-index: 9999;
 	background: url('../res/loading.gif') 50% 50% no-repeat #ffffff;
 }
+@font-face {
+   font-family: BigJohn;
+   src: url('../res/BIGJOHN.otf');
+}
+@font-face {
+   font-family: SlimJoe;
+   src: url('../res/SlimJoe.otf');
+}
+/*font-family: "BigJohn";*/
+/*font-family: "SlimJoe";*/
+
+#header {
+  font-family: "BigJohn";
+}

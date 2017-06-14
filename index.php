@@ -51,6 +51,7 @@
   </head>
   <body>
     <div class="loader"></div>
+    <h1 id="header"> Hack Saint Louis </h1>
     <form method="post" action="./">
       Name: <input name="name" type="text">
       <br>
