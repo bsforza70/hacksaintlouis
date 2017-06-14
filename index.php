@@ -3,7 +3,17 @@
   require("db.php");
   $mysqli = getDB();
 
-  if (isset($_POST["test"])) {
+  if (isset($_POST["name"])) {
+
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+
+    $query = $mysqli->prepare("INSERT INTO registrants (name, email) VALUES (?, ?)");
+    $query->bind_param('ss', $name, $email);
+    $query->execute();
+
+    echo $name;
+    echo $email;
 
   }
 
@@ -42,7 +52,9 @@
   <body>
     <div class="loader"></div>
     <form method="post" action="./">
-      <input name="test" type="text">
+      Name: <input name="name" type="text">
+      <br>
+      Email: <input name="email" type="text">
       <input type="submit">
     </form>
   </body>
