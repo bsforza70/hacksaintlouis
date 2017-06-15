@@ -1,3 +1,17 @@
+/*font-family: "BigJohn";*/
+/*font-family: "SlimJoe";*/
+/*Main Red Color: DA284F*/
+@-webkit-keyframes scrolling {
+	0% {
+		transform: translate3d(0,0,0);
+	}
+	100% {
+		transform: translate3d(0,-320px,0);
+	}
+}
+body {
+	overflow-x: hidden;
+}
 .loader {
 	position: fixed;
 	left: 0px;
@@ -15,10 +29,72 @@
    font-family: SlimJoe;
    src: url('../res/SlimJoe.otf');
 }
-/*font-family: "BigJohn";*/
-/*font-family: "SlimJoe";*/
-/*Main Red Color: DA284F*/
 #header {
   font-family: "BigJohn";
   color: #DA284F;
+}
+#first {
+	width: 100vw;
+	height: 96vh;
+	background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+#second {
+	width: 100vw;
+	height: 90vh;
+	background-color: #DA284F;
+}
+.panel {
+	position: relative;
+	padding: 10em 10%;
+	background: #2980b9;
+	color: #fff;
+	text-align: center;
+}
+.panel::before,
+.panel::after {
+	position: absolute;
+	content: '';
+	pointer-events: none;
+}
+
+.scroll {
+    background-image: url("../res/scrolling.svg");
+    background-position: center center;
+    background-size: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 400%;
+    width: 100%;
+    z-index: 1;
+		animation: scrolling 5s linear infinite
+}
+.doubleddiagonal {
+	z-index: 1;
+	padding-top: 6em;
+}
+
+.doubleddiagonal::before,
+.doubleddiagonal::after {
+	top: 0;
+	left: -25%;
+	z-index: -1;
+	width: 125.25%;
+	height: 75%;
+	background: inherit;
+	-webkit-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.doubleddiagonal::before {
+	height: 50%;
+	background: #9e1331;
+	-webkit-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+	-webkit-transform-origin: 3% 0;
+	transform-origin: 3% 0;
 }

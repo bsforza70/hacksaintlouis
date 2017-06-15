@@ -52,12 +52,18 @@
   </head>
   <body>
     <div class="loader"></div>
-    <h1 id="header"> Hack Saint Louis </h1>
+    <!-- <h1 id="header"> Hack Saint Louis </h1>
     <form method="post" action="./">
       Name: <input name="name" type="text">
       <br>
       Email: <input name="email" type="text">
       <input type="submit">
-    </form>
+    </form> -->
+    <div class="panel" id="first">
+        <div class="scroll"></div>
+    </div>
+    <div class="panel doubleddiagonal" id="second">
+      
+    </div>
   </body>
 </html>
