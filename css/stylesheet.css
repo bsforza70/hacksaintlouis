@@ -47,9 +47,8 @@ body {
 }
 .panel {
 	position: relative;
-	padding: 10em 10%;
+	padding: 5em 10%;
 	background: #2980b9;
-	color: #fff;
 	text-align: center;
 }
 .panel::before,
@@ -97,4 +96,10 @@ body {
 	transform: rotate(-4deg);
 	-webkit-transform-origin: 3% 0;
 	transform-origin: 3% 0;
+}
+
+#first h1 {
+	font-family: "BigJohn";
+	z-index: 10;
+	font-size: 8em;
 }
