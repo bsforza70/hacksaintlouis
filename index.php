@@ -61,22 +61,14 @@
 		</form> -->
 		<div id="massContainer">
 			<div class="panel" id="first">
-        <div id="upperPanelOne">
-					<div id="logoPanelOne">
-						<img id="LogoOne" src="res/Logo.svg">
-					</div>
-					<div id="textPanelOne">
-						<h1> Hack <br> Saint Louis </h1>
-					</div>
+        <div id="title">
+					 <img src="res/Logo.svg">
+					 <h1> Hack <br> Saint Louis </h1>
         </div>
-        <div id="lowerPanelOne">
-          <h2> Oct. 24-26, 2017</h2>
-          <button id="registerButton"> register </button>
-        </div>
-					<div class="scroll"></div>
-			</div>
+        <div id="subtitle"> Oct. 24-26, 2017 | Some Fancy Venue </div>
+				<div class="scroll"></div>
+      </div>
 			<div class="panel doubleddiagonal" id="second">
-
 			</div>
 		</div>
 	</body>

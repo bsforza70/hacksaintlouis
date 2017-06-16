@@ -29,20 +29,11 @@ body {
 	font-family: SlimJoe;
 	src: url('../res/SlimJoe.otf');
 }
-#header {
-	font-family: "BigJohn";
-	color: #DA284F;
-}
-#first {
+#massContainer {
 	width: 100vw;
-	height: 96vh;
-	background-color: #ffffff;
-	overflow: hidden;
-}
-#second {
-	width: 100vw;
-	height: 90vh;
-	background-color: #DA284F;
+	height: 100vh;
+	overflow-x: hidden;
+	position: relative;
 }
 .panel {
 	position: relative;
@@ -56,6 +47,45 @@ body {
 	content: '';
 	pointer-events: none;
 }
+
+/* FIRST PANEL - TITLE */
+
+#first {
+	width: 100vw;
+	height: 100vh;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+#title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+/* logo */
+#title img {
+	width: 15%;
+	height: auto;
+	position: relative;
+	z-index: 2;
+	float: right;
+}
+/* hack saint louis */
+#title h1 {
+	font-family: "BigJohn";
+	z-index: 10;
+	font-size: 4em;
+	position: relative;
+	padding: 0 !important;
+}
+/* place and time */
+#subtitle {
+	font-family: "SlimJoe";
+	z-index: 10;
+	font-size: 2.5em;
+	position: relative;
+}
+/* register now */
 
 .scroll {
 	background-image: url("../res/scrolling.svg");
@@ -74,7 +104,6 @@ body {
 	z-index: 1;
 	padding-top: 6em;
 }
-
 .doubleddiagonal::before,
 .doubleddiagonal::after {
 	top: 0;
@@ -88,7 +117,6 @@ body {
 	-webkit-transform-origin: 0 0;
 	transform-origin: 0 0;
 }
-
 .doubleddiagonal::before {
 	height: 50%;
 	background: #9e1331;
@@ -98,67 +126,11 @@ body {
 	transform-origin: 3% 0;
 }
 
-#massContainer {
+/* SECOND PANEL */
+
+#second {
 	width: 100vw;
-	height: 100vh;
-	overflow-x: hidden;
-	position: relative;
+	height: 90vh;
+	background-color: #DA284F;
 }
 
-#upperPanelOne {
-	display: flex;
-	width: 80%;
-	text-align: left;
-	align-items: flex-end;
-}
-
-#logoPanelOne {
-	flex-grow: 0.3;
-	flex-basis: 0;
-}
-
-#textPanelOne {
-	flex-grow: 0.7;
-	flex-basis: 0;
-}
-
-#textPanelOne h1 {
-	font-family: "BigJohn";
-	z-index: 10;
-	font-size: 5em;
-	position: relative;
-	padding: 0 !important;
-}
-
-#LogoOne {
-	width: 100%;
-	height: auto;
-	position: relative;
-	z-index: 2;
-	float: right;
-}
-
-#lowerPanelOne {
-	display: flex;
-	align-items: flex-end;
-}
-
-#lowerPanelOne h2 {
-	font-family: "SlimJoe";
-	z-index: 10;
-	font-size: 4em;
-	position: relative;
-	padding: 0 !important;
-}
-
-#registerButton {
-	border: none;
-	z-index: 10;
-	margin-left: 5%;
-	padding: 0 !important;
-	height: 1.5em;
-	width: auto;
-	background: none;
-	font-size: 4em;
-	font-family: "SlimJoe";
-}
