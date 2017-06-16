@@ -66,6 +66,10 @@
 					 <h1> Hack <br> Saint Louis </h1>
         </div>
         <div id="subtitle"> Oct. 24-26, 2017 | Some Fancy Venue </div>
+        <form id="subscribe">
+          <!-- note: these actually need to be on the same line -->
+          <input type="text" name="subscriber-email" placeholder="email@example.com"><button type="submit">keep me updated</button>
+        </form>
 				<div class="scroll"></div>
       </div>
 			<div class="panel doubleddiagonal" id="second">

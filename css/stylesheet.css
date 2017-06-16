@@ -85,8 +85,30 @@ body {
 	font-size: 2.5em;
 	position: relative;
 }
-/* register now */
-
+#subscribe {
+	margin-top: 3em;
+}
+#subscribe input, #subscribe button {
+	font-family: "SlimJoe";
+	height: 50px;
+	width: auto;
+	z-index: 10;
+	position: relative;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	border: 2px solid #DA284F;
+}
+#subscribe button {
+	background: #DA284F;
+	transition: color .25s;
+}
+#subscribe input:focus, #subscribe button:focus {
+	outline: none;
+}
+#subscribe button:hover {
+	cursor: pointer;
+	color: white;
+}
 .scroll {
 	background-image: url("../res/scrolling.svg");
 	background-position: center center;
