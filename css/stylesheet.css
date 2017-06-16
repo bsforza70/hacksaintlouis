@@ -36,9 +36,9 @@ body {
 #first {
 	width: 100vw;
 	height: 96vh;
+	display: flex;
 	background-color: #ffffff;
 	overflow: hidden;
-	position: relative;
 }
 #second {
 	width: 100vw;
@@ -114,15 +114,12 @@ body {
 }
 
 #logoPanelOne {
-	height: 100%;
-	width: 40%;
-	position: relative;
+	flex-grow: 0.4;
+	flex-basis: 0;
 }
 #textPanelOne {
-	height: 100%;
-	width: 60%;
-	position: relative;
-	display: inline;
+	flex-grow: 0.6;
+	flex-basis: 0;
 }
 #LogoOne {
 	width: 100%;
