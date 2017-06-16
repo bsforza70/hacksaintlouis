@@ -1,5 +1,7 @@
 /*font-family: "BigJohn";*/
 /*font-family: "SlimJoe";*/
+/*font-family: 'Roboto Mono', monospace;*/
+/*font-family: 'Palanquin Dark', sans-serif;*/
 /*Main Red Color: DA284F*/
 @-webkit-keyframes scrolling {
 	0% {
@@ -59,37 +61,35 @@ body {
 #title {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	text-align: left;
 }
 /* logo */
 #title img {
 	width: 15%;
 	height: auto;
-	position: relative;
 	z-index: 2;
 	float: right;
 }
 /* hack saint louis */
 #title h1 {
-	font-family: "BigJohn";
+	font-family: 'Palanquin Dark', sans-serif;
 	z-index: 10;
 	font-size: 4em;
-	position: relative;
 	padding: 0 !important;
 }
 /* place and time */
 #subtitle {
-	font-family: "SlimJoe";
+	font-family: 'Roboto Mono', monospace;
 	z-index: 10;
-	font-size: 2.5em;
+	font-size: 2em;
 	position: relative;
 }
 #subscribe {
 	margin-top: 3em;
 }
 #subscribe input, #subscribe button {
-	font-family: "SlimJoe";
+	font-family: 'Roboto Mono', monospace;
 	height: 50px;
 	width: auto;
 	z-index: 10;
@@ -155,4 +155,3 @@ body {
 	height: 90vh;
 	background-color: #DA284F;
 }
-

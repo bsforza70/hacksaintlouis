@@ -29,6 +29,7 @@
 		<link rel="manifest" href="/icons/manifest.json">
 		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#da284f">
 		<link rel="shortcut icon" href="/icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Palanquin+Dark:700" rel="stylesheet">
 		<meta name="apple-mobile-web-app-title" content="Hack Saint Louis">
 		<meta name="application-name" content="Hack Saint Louis">
 		<meta name="msapplication-TileColor" content="#da284f">
@@ -65,10 +66,10 @@
 					 <img src="res/Logo.svg">
 					 <h1> Hack <br> Saint Louis </h1>
         </div>
-        <div id="subtitle"> Oct. 24-26, 2017 | Some Fancy Venue </div>
-        <form id="subscribe">
+        <div id="subtitle"> Oct. 24-26, 2017 / Some Fancy Venue </div>
+        <form autocomplete="off" id="subscribe">
           <!-- note: these actually need to be on the same line -->
-          <input type="text" name="subscriber-email" placeholder="email@example.com"><button type="submit">keep me updated</button>
+          <input type="text" name="subscriber-email" placeholder="email@example.com"><button type="submit">get updates</button>
         </form>
 				<div class="scroll"></div>
       </div>
