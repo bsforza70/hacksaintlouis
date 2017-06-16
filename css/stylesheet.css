@@ -36,7 +36,6 @@ body {
 #first {
 	width: 100vw;
 	height: 96vh;
-	display: flex;
 	background-color: #ffffff;
 	overflow: hidden;
 }
@@ -68,7 +67,8 @@ body {
 	height: 400%;
 	width: 100%;
 	z-index: 1;
-	animation: scrolling 10s linear infinite
+	animation: scrolling 10s linear infinite;
+	opacity: .5;
 }
 .doubleddiagonal {
 	z-index: 1;
@@ -98,14 +98,6 @@ body {
 	transform-origin: 3% 0;
 }
 
-#first h1 {
-	font-family: "BigJohn";
-	z-index: 10;
-	font-size: 8em;
-	position: relative;
-	padding: 0 !important;
-}
-
 #massContainer {
 	width: 100vw;
 	height: 100vh;
@@ -113,18 +105,60 @@ body {
 	position: relative;
 }
 
+#upperPanelOne {
+	display: flex;
+	width: 80%;
+	text-align: left;
+	align-items: flex-end;
+}
+
 #logoPanelOne {
-	flex-grow: 0.4;
+	flex-grow: 0.3;
 	flex-basis: 0;
 }
+
 #textPanelOne {
-	flex-grow: 0.6;
+	flex-grow: 0.7;
 	flex-basis: 0;
 }
+
+#textPanelOne h1 {
+	font-family: "BigJohn";
+	z-index: 10;
+	font-size: 5em;
+	position: relative;
+	padding: 0 !important;
+}
+
 #LogoOne {
 	width: 100%;
 	height: auto;
 	position: relative;
 	z-index: 2;
-	display: inline;
+	float: right;
+}
+
+#lowerPanelOne {
+	display: flex;
+	align-items: flex-end;
+}
+
+#lowerPanelOne h2 {
+	font-family: "SlimJoe";
+	z-index: 10;
+	font-size: 4em;
+	position: relative;
+	padding: 0 !important;
+}
+
+#registerButton {
+	border: none;
+	z-index: 10;
+	margin-left: 5%;
+	padding: 0 !important;
+	height: 1.5em;
+	width: auto;
+	background: none;
+	font-size: 4em;
+	font-family: "SlimJoe";
 }
