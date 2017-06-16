@@ -68,7 +68,7 @@ body {
 	height: 400%;
 	width: 100%;
 	z-index: 1;
-	animation: scrolling 5s linear infinite
+	animation: scrolling 10s linear infinite
 }
 .doubleddiagonal {
 	z-index: 1;
@@ -110,4 +110,24 @@ body {
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
+	position: relative;
+}
+
+#logoPanelOne {
+	height: 100%;
+	width: 40%;
+	position: relative;
+}
+#textPanelOne {
+	height: 100%;
+	width: 60%;
+	position: relative;
+	display: inline;
+}
+#LogoOne {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 2;
+	display: inline;
 }

@@ -61,8 +61,13 @@
     </form> -->
     <div id="massContainer">
       <div class="panel" id="first">
+          <div id="logoPanelOne">
+            <img id="LogoOne" src="res/Logo.svg">
+          </div>
+          <div id="textPanelOne">
+            <h1> Hack <br> Saint <br> Louis </h1>
+          </div>
           <div class="scroll"></div>
-          <h1>HACK SAINT LOUIS</h1>
       </div>
       <div class="panel doubleddiagonal" id="second">
 
