@@ -59,12 +59,14 @@
       Email: <input name="email" type="text">
       <input type="submit">
     </form> -->
-    <div class="panel" id="first">
-        <div class="scroll"></div>
-        <h1>HACK SAINT LOUIS</h1>
-    </div>
-    <div class="panel doubleddiagonal" id="second">
-      
+    <div id="massContainer">
+      <div class="panel" id="first">
+          <div class="scroll"></div>
+          <h1>HACK SAINT LOUIS</h1>
+      </div>
+      <div class="panel doubleddiagonal" id="second">
+
+      </div>
     </div>
   </body>
 </html>
