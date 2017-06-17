@@ -81,7 +81,7 @@
         });
 
         $(".loader").fadeOut(1000, "linear");
-        
+
         // disable enter key submitting form
         $(window).keydown(function(event){
           if(event.keyCode == 13) {
@@ -115,7 +115,10 @@
             <div class="ch-info">
               <h3>Michael Gira</h3>
               <p>Senior Memer
-                <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+                <br>
+                <a href="https://github.com/michaelgira23">GitHub Profile</a>
+                <br>
+                <a href="https://www.linkedin.com/in/michael-gira/">LinkedIn Profile</a>
               </p>
             </div>
           </div></li>
@@ -161,7 +164,7 @@
           </div></li>
         </ul>
       </div>
-      
+
 		</div>
 
 	</body>
