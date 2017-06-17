@@ -34,7 +34,6 @@ body {
 #massContainer {
 	width: 100vw;
 	height: 100vh;
-	overflow-x: hidden;
 	position: relative;
 }
 .panel {
@@ -53,6 +52,7 @@ body {
 /* FIRST PANEL - TITLE */
 
 #first {
+	position: fixed;
 	width: 100vw;
 	height: 102vh;
 	background-color: #ffffff;
@@ -148,6 +148,7 @@ body {
 /* SECOND PANEL */
 
 #second {
+	margin-top: 100vh;
 	width: 100vw;
 	height: 150vh;
 	background-color: #DA284F;
