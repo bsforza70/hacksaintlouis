@@ -101,7 +101,7 @@
 					 <img src="res/Logo.svg">
 					 <h1> Hack <br> Saint Louis </h1>
         </div>
-        <div id="subtitle"> Oct. 24-26, 2017 / Some Fancy Venue </div>
+        <div id="subtitle"> Oct. 13-15, 2017 / Some Fancy Venue </div>
         <form autocomplete="off" id="subscribe">
           <!-- note: these actually need to be on the same line -->
           <input type="text" placeholder="email@example.com"><button type="button">get updates</button>
