@@ -35,6 +35,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
+	overflow-x: hidden;
 }
 .panel {
 	position: relative;
@@ -52,7 +53,7 @@ body {
 /* FIRST PANEL - TITLE */
 
 #first {
-	position: fixed;
+	/*position: fixed; PARALLAX*/
 	width: 100vw;
 	height: 102vh;
 	background-color: #ffffff;
@@ -148,18 +149,22 @@ body {
 /* SECOND PANEL */
 
 #second {
-	margin-top: 100vh;
+	/*margin-top: 100vh; PARALLAX*/
 	width: 100vw;
-	height: 150vh;
+	height: 100vh;
 	background-color: #DA284F;
-	position: absolute;
+	position: relative;
 	z-index: 1;
 }
 #second h1 {
 	text-align: center;
 	font-family: 'Palanquin Dark', sans-serif;
-	font-size: 3em;
-	color: black;
+	font-size: 4em;
+	color: #ffffff;
+}
+#hsl {
+	color: rgb(255, 230, 235);
+	font-size: 4.2em;	
 }
 /*
 #second {
@@ -176,3 +181,10 @@ body {
 	-webkit-transform: none;
 }
 */
+#third {
+	width: 100vw;
+	height: 100vh;
+	background-color: #ffffff;
+	position: relative;
+	z-index: 1;
+}

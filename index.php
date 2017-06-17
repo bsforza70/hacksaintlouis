@@ -109,7 +109,7 @@
 				<div class="scroll"></div>
       </div>
 			<div class="panel doubleddiagonal" id="second">
-        <h1>Meet the Team</h1>
+        <h1>What is Hack Saint Louis?</h1>
         <ul class="ch-grid">
           <li><div class="ch-item ch-img-1">
             <div class="ch-info">
@@ -164,7 +164,9 @@
           </div></li>
         </ul>
       </div>
+			<div class="Panel" id="third">
 
+			</div>
 		</div>
 
 	</body>
