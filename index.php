@@ -16,6 +16,12 @@
 		echo $email;
 
 	}
+  if (isset($_POST["subscriberEmail"])) {
+    $email = $_POST["subscriberEmail"];
+    $query = $mysqli->prepare("INSERT INTO subscribers (email) VALUES (?)");
+    $query->bind_param('s', $email);
+    $query->execute();
+  }
 
 ?>
 
@@ -42,24 +48,53 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<link href="css/stylesheet.css" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <link href="css/profiles.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(window).load(function() {
-				$(".loader").fadeOut(1000, "linear");
-			})
-		</script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var formSubmitted = function(success) {
+          if (success) {
+            $("#subscribe button").css("background-color", "#00CD00");
+            $("#subscribe button").css("border", "2px solid #00CD00");
+            $("#subscribe input").css("border", "2px solid #00CD00");
+            $("#subscribe button").html("thanks!");
+          } else {
+            $("#subscribe button").css("background-color", "red");
+            $("#subscribe button").css("border", "2px solid red");
+            $("#subscribe input").css("border", "2px solid red");
+            $("#subscribe button").html("error... try again?");
+          }
+        };
+        $("#subscribe button").click(function(){
+            var email = $("#subscribe input").val();
+            $.ajax({
+                type: 'POST',
+                data: {subscriberEmail: email},
+                success: function() {
+                  formSubmitted(true);
+                },
+                error: function() {
+                  formSubmitted(false);
+                }
+            });
+        });
+
+        $(".loader").fadeOut(1000, "linear");
+        
+        // disable enter key submitting form
+        $(window).keydown(function(event){
+          if(event.keyCode == 13) {
+            event.preventDefault();
+            return false;
+          }
+        });
+      });
+    </script>
 	</head>
 	<body>
+    <div class="popup-message"></div>
 		<div class="loader"></div>
-		<!-- <h1 id="header"> Hack Saint Louis </h1>
-		<form method="post" action="./">
-			Name: <input name="name" type="text">
-			<br>
-			Email: <input name="email" type="text">
-			<input type="submit">
-		</form> -->
 		<div id="massContainer">
 			<div class="panel" id="first">
         <div id="title">
@@ -69,12 +104,65 @@
         <div id="subtitle"> Oct. 24-26, 2017 / Some Fancy Venue </div>
         <form autocomplete="off" id="subscribe">
           <!-- note: these actually need to be on the same line -->
-          <input type="text" name="subscriber-email" placeholder="email@example.com"><button type="submit">get updates</button>
+          <input type="text" placeholder="email@example.com"><button type="button">get updates</button>
         </form>
 				<div class="scroll"></div>
       </div>
 			<div class="panel doubleddiagonal" id="second">
-			</div>
+        <h1>Meet the Team</h1>
+        <ul class="ch-grid">
+          <li><div class="ch-item ch-img-1">
+            <div class="ch-info">
+              <h3>Michael Gira</h3>
+              <p>Senior Memer
+                <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+              </p>
+            </div>
+          </div></li>
+          <li><div class="ch-item ch-img-2">
+            <div class="ch-info">
+              <h3>Bob Sforza</h3>
+                <p>Highly Specialized Beekeeper
+                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+                </p>
+            </div>
+          </div></li>
+          <li><div class="ch-item ch-img-3">
+            <div class="ch-info">
+              <h3>Nick Clifford</h3>
+              <p>Nickle Counter
+                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+              </p>
+            </div>
+          </div></li>
+          <li><div class="ch-item ch-img-4">
+            <div class="ch-info">
+              <h3>Sidd Mehta</h3>
+              <p>Meme Investor
+                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+              </p>
+            </div>
+          </div></li>
+          <li><div class="ch-item ch-img-5">
+            <div class="ch-info">
+              <h3>Jack Cai</h3>
+              <p>Designated Brawlhalla Player
+                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+              </p>
+            </div>
+          </div></li>
+          <li><div class="ch-item ch-img-6">
+            <div class="ch-info">
+              <h3>Michel Ge</h3>
+              <p>Name Maker Uper
+                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+              </p>
+            </div>
+          </div></li>
+        </ul>
+      </div>
+      
 		</div>
+
 	</body>
 </html>
