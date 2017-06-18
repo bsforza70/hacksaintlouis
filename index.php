@@ -110,7 +110,7 @@
       </div>
 			<div class="panel doubleddiagonal" id="second">
         <h1>What is Hack Saint Louis?</h1>
-        <ul class="ch-grid">
+        <!-- <ul class="ch-grid">
           <li><div class="ch-item ch-img-1">
             <div class="ch-info">
               <h3>Michael Gira</h3>
@@ -162,9 +162,9 @@
               </p>
             </div>
           </div></li>
-        </ul>
+        </ul> -->
       </div>
-			<div class="Panel" id="third">
+			<div class="panel" id="third">
 
 			</div>
 		</div>
