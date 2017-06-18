@@ -151,7 +151,7 @@ body {
 #second {
 	/*margin-top: 100vh; PARALLAX*/
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	background-color: #DA284F;
 	position: relative;
 	z-index: 1;
@@ -164,7 +164,7 @@ body {
 }
 #hsl {
 	color: rgb(255, 230, 235);
-	font-size: 4.2em;	
+	font-size: 1.08em;
 }
 /*
 #second {
@@ -184,7 +184,45 @@ body {
 #third {
 	width: 100vw;
 	height: 100vh;
-	background-color: #ffffff;
+	background-color: #e5e5e5;
 	position: relative;
 	z-index: 1;
+}
+#transitionOne {
+	width: 100vw;
+	height: 40px;
+	background-color: rgba(218, 40, 79, 0.7);
+	top: 0;
+}
+#transitionTwo {
+	width: 100vw;
+	height: 30px;
+	background-color: rgba(218, 40, 79, 0.45);
+	top: 0;
+}
+#FAQ {
+	font-family: "BigJohn";
+	color: #DA284F;
+	font-size: 4em;
+	margin-top: 20px;
+}
+.FAQContainer {
+	display: flex;
+}
+.FAQContainer li {
+	list-style-type: none;
+	width: 30%;
+	height: 20%;
+	margin: 2%;
+	background-color: white;
+}
+.FAQContainer li .Q span {
+	font-family: "BigJohn";
+	color: black;
+	margin-top: 10px;
+}
+.FAQContainer li .A span {
+	font-family: 'Roboto Mono', monospace;
+	color: black;
+	margin-top: 5px;
 }
