@@ -215,6 +215,7 @@ body {
 	height: 20%;
 	margin: 2%;
 	background-color: white;
+	padding: 10px;
 }
 .FAQContainer li .Q span {
 	font-family: "BigJohn";
