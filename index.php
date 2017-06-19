@@ -207,6 +207,12 @@
 					</li>
 				</ul>
 			</div>
+			<div class="panel" id="fourth">
+				<!-- Sponsors -->
+			</div>
+			<div class="panel" id="fifth">
+				<!-- The team? -->
+			</div>
 		</div>
 	</body>
 </html>
