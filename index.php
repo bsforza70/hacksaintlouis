@@ -25,7 +25,7 @@
 
 ?>
 
-<html>
+<html lang="en">
 	<head>
 		<title>Hack Saint Louis</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -36,12 +36,26 @@
 		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#da284f">
 		<link rel="shortcut icon" href="/icons/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Palanquin+Dark:700" rel="stylesheet">
+		<meta name="description" content="Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="apple-mobile-web-app-title" content="Hack Saint Louis">
 		<meta name="application-name" content="Hack Saint Louis">
 		<meta name="msapplication-TileColor" content="#da284f">
 		<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
 		<meta name="msapplication-config" content="/icons/browserconfig.xml">
 		<meta name="theme-color" content="#da284f">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<meta name="geo.position" content="38.624306;-90.187127">
+		<meta name="geo.placename" content="Saint Louis, MO">
+		<meta name="geo.region" content="US-MO">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@hacksaintlouis">
+		<meta name="twitter:title" content="Hack Saint Louis">\
+		<meta property="og:title" content="Hack Saint Louis" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://hacksaintlouis.com" />
+		<meta property="og:image" content="http://hacksaintlouis.com/res/Logo.svg" />
+		<meta property="og:description" content="48 Hours of inventing and creating in Saint Louis. October 13-15." />
 		<meta name="google-site-verification" content="SPLlsq7EE_7QzwK5pdt8g38HjDdxwQJ76crDUS8-2W8" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
