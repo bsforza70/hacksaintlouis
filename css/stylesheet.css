@@ -225,5 +225,7 @@ body {
 .FAQContainer li .A span {
 	font-family: 'Roboto Mono', monospace;
 	color: black;
+}
+.FAQContainer li .A {
 	margin-top: 5px;
 }

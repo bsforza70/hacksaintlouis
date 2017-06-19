@@ -170,40 +170,40 @@
 				<h1 id="FAQ">Frequently Asked Questions</h1>
 				<ul class="FAQContainer">
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> Who can participate? </span> </div>
+						<div class="A"> <span>Any student! If you attend a university, high school, or middle school, you're eligible to hack.</span> </div>
 					</li>
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> I'm new to programming, can I still come? </span> </div>
+						<div class="A"> <span> Yes! Hack Saint Louis is a place to learn, experiment, and have fun. Remember, everyone starts somewhere.</span> </div>
 					</li>
 					<br>
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> What should I bring? </span> </div>
+						<div class="A"> <span> Bring a computer, a valid student ID, and a great attitude. Everything else (food, swag, and love) will be provided. </span> </div>
 					</li>
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> How much does Hack Saint Louis cost? </span> </div>
+						<div class="A"> <span> It's entirely free. The swag? Free. The food? Free. The experience? Priceless. </span> </div>
 					</li>
 				</ul>
 				<ul class="FAQContainer">
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> When and where is Hack Saint Louis? </span> </div>
+						<div class="A"> <span> The event will be held at the beautiful ___. Check in starts at 5:00pm on Oct. 13 and we'll close up shop around 3:00pm on Oct. 15.</span> </div>
 					</li>
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> Do you offer travel reimbursement? </span> </div>
+						<div class="A"> <span> Unfortunately, we cannot guarantee travel reimbursement at this time. We'll update this page if that changes.</span> </div>
 					</li>
 					<br>
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> Do I need a team? </span> </div>
+						<div class="A"> <span> You can come with friends, colleagues, or come alone. If you don't have a team, we'll find you one.</span> </div>
 					</li>
 					<li>
-						<div class="Q"> <span> What? </span> </div>
-						<div class="A"> <span> That's what. </span> </div>
+						<div class="Q"> <span> Still have questions? </span> </div>
+						<div class="A"> <span> Feel free to shoot us a message at <a href="mailto:info@hacksaintlouis.com">info@hacksaintlouis.com</a>. We're more than happy to answer questions. </span> </div>
 					</li>
 				</ul>
 			</div>
