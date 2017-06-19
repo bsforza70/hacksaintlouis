@@ -173,21 +173,6 @@ body {
 	color: rgb(255, 230, 235);
 	font-size: 1.08em;
 }
-/*
-#second {
-	width: 110vw;
-	height: 100vh;
-	transform: rotate(9deg) translate(-70px, 105px);
-	-webkit-transform: rotate(9deg) translate(-70px, 105px);
-	background-color: #FF6883;
-	position: absolute;
-	z-index: 2;
-}
-#second h1 {
-	transform: none;
-	-webkit-transform: none;
-}
-*/
 #third {
 	width: 100vw;
 	height: 250vh;
