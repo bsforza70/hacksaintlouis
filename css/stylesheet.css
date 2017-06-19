@@ -173,9 +173,12 @@ body {
 	color: rgb(255, 230, 235);
 	font-size: 1.08em;
 }
+
+/* THIRD PANEL */
+
 #third {
 	width: 100vw;
-	height: 250vh;
+	height: 240vh;
 	background-color: #e5e5e5;
 	position: relative;
 	z-index: 1;
@@ -221,4 +224,21 @@ body {
 }
 .FAQContainer li .A {
 	margin-top: 5px;
+}
+
+/* FOURTH PANEL */
+
+#curveUpColor {
+	background-color: #e5e5e5;
+}
+#curveUpColor path {
+	fill: #2980B9;
+	stroke: #2980B9;
+}
+#fourth {
+	width: 100vw;
+	height: 100vh;
+	background-color: #2980B9;
+	position: relative;
+	z-index: 1;
 }

@@ -171,64 +171,67 @@
 				</li>
       </ul>
 			</div>
+      <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"/>
+      </svg>
 			<div class="panel" id="fourth">
 				<!-- Sponsors -->
 			</div>
 			<div class="panel" id="fifth">
 				<!-- The team? -->
-        <!-- <ul class="ch-grid">
-          <li><div class="ch-item ch-img-1">
-            <div class="ch-info">
-              <h3>Michael Gira</h3>
-              <p>Senior Memer
-                <br>
-                <a href="https://github.com/michaelgira23">GitHub Profile</a>
-                <br>
-                <a href="https://www.linkedin.com/in/michael-gira/">LinkedIn Profile</a>
+<!--         <ul class="ch-grid">
+        <li><div class="ch-item ch-img-1">
+          <div class="ch-info">
+            <h3>Michael Gira</h3>
+            <p>Senior Memer
+              <br>
+              <a href="https://github.com/michaelgira23">GitHub Profile</a>
+              <br>
+              <a href="https://www.linkedin.com/in/michael-gira/">LinkedIn Profile</a>
+            </p>
+          </div>
+        </div></li>
+        <li><div class="ch-item ch-img-2">
+          <div class="ch-info">
+            <h3>Bob Sforza</h3>
+              <p>Highly Specialized Beekeeper
+               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
               </p>
-            </div>
-          </div></li>
-          <li><div class="ch-item ch-img-2">
-            <div class="ch-info">
-              <h3>Bob Sforza</h3>
-                <p>Highly Specialized Beekeeper
-                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-                </p>
-            </div>
-          </div></li>
-          <li><div class="ch-item ch-img-3">
-            <div class="ch-info">
-              <h3>Nick Clifford</h3>
-              <p>Nickle Counter
-                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-              </p>
-            </div>
-          </div></li>
-          <li><div class="ch-item ch-img-4">
-            <div class="ch-info">
-              <h3>Sidd Mehta</h3>
-              <p>Meme Investor
-                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-              </p>
-            </div>
-          </div></li>
-          <li><div class="ch-item ch-img-5">
-            <div class="ch-info">
-              <h3>Jack Cai</h3>
-              <p>Designated Brawlhalla Player
-                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-              </p>
-            </div>
-          </div></li>
-          <li><div class="ch-item ch-img-6">
-            <div class="ch-info">
-              <h3>Michel Ge</h3>
-              <p>Name Maker Uper
-                 <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-              </p>
-            </div>
-          </div></li>
-        </ul> -->
+          </div>
+        </div></li>
+        <li><div class="ch-item ch-img-3">
+          <div class="ch-info">
+            <h3>Nick Clifford</h3>
+            <p>Nickle Counter
+               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+            </p>
+          </div>
+        </div></li>
+        <li><div class="ch-item ch-img-4">
+          <div class="ch-info">
+            <h3>Sidd Mehta</h3>
+            <p>Meme Investor
+               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+            </p>
+          </div>
+        </div></li>
+        <li><div class="ch-item ch-img-5">
+          <div class="ch-info">
+            <h3>Jack Cai</h3>
+            <p>Designated Brawlhalla Player
+               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+            </p>
+          </div>
+        </div></li>
+        <li><div class="ch-item ch-img-6">
+          <div class="ch-info">
+            <h3>Michel Ge</h3>
+            <p>Name Maker Uper
+               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
+            </p>
+          </div>
+        </div></li>
+      </ul> -->
 			</div>
 		</div>
 	</body>
