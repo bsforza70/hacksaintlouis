@@ -110,6 +110,9 @@
       </div>
 			<div class="panel doubleddiagonal" id="second">
         <h1>What is <span id="hsl">Hack Saint Louis</span>?</h1>
+        <p>
+        Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries. Over a weekend of rich learning and intense collaboration, you'll gain hands-on work experience and forge valuable connections with big-name companies, and you'll strengthen friendships and make lasting memories while you're at it. Whether you're a seasoned developer looking to hone your skills or a curious stranger to the computer science world, this is a place for you!
+        </p>
         <!-- <ul class="ch-grid">
           <li><div class="ch-item ch-img-1">
             <div class="ch-info">
@@ -175,7 +178,7 @@
 					</li>
 					<li>
 						<div class="Q"> <span> I'm new to programming, can I still come? </span> </div>
-						<div class="A"> <span> Yes! Hack Saint Louis is a place to learn, experiment, and have fun. Remember, everyone starts somewhere.</span> </div>
+						<div class="A"> <span> Yes! Hack Saint Louis is a place to learn, experiment, and have fun. We'll also have mentors at the event who can answer questions and give crash courses. Remember, everyone starts somewhere.</span> </div>
 					</li>
 					<br>
 					<li>
@@ -184,7 +187,7 @@
 					</li>
 					<li>
 						<div class="Q"> <span> How much does Hack Saint Louis cost? </span> </div>
-						<div class="A"> <span> It's entirely free. The swag? Free. The food? Free. The experience? Priceless. </span> </div>
+						<div class="A"> <span> It's entirely free! </span> </div>
 					</li>
 				</ul>
 				<ul class="FAQContainer">
@@ -201,6 +204,22 @@
 						<div class="Q"> <span> Do I need a team? </span> </div>
 						<div class="A"> <span> You can come with friends, colleagues, or come alone. If you don't have a team, we'll find you one.</span> </div>
 					</li>
+          <li>
+            <div class="Q"> <span> Where can I spend the night? </span> </div>
+            <div class="A"> <span> You're free to come and go as you wish, so you can go home to sleep or book a hotel if you're not from the area. However, many people bring sleeping bags and spend the night in the venue. </span> </div>
+          </li>
+          <li>
+            <div class="Q"> <span> Will food be provided? </span> </div>
+            <div class="A"> <span> All meals will be provided, including snacks. </span> </div>
+          </li>
+          <li>
+            <div class="Q"> <span> Will there be prizes? </span> </div>
+            <div class="A"> <span> Yes! There will be cash prizes for the winners. [more details later] </span> </div>
+          </li>
+          <li>
+            <div class="Q"> <span> How are winners determined? </span> </div>
+            <div class="A"> <span> Teams will present their projects on Sunday, the final day. From these presentations, a panel of judges will select the winners. </span> </div>
+          </li>
 					<li>
 						<div class="Q"> <span> Still have questions? </span> </div>
 						<div class="A"> <span> Feel free to shoot us a message at <a href="mailto:info@hacksaintlouis.com">info@hacksaintlouis.com</a>. We're more than happy to answer questions. </span> </div>
