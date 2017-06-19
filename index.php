@@ -16,12 +16,12 @@
 		echo $email;
 
 	}
-  if (isset($_POST["subscriberEmail"])) {
-    $email = $_POST["subscriberEmail"];
-    $query = $mysqli->prepare("INSERT INTO subscribers (email) VALUES (?)");
-    $query->bind_param('s', $email);
-    $query->execute();
-  }
+	if (isset($_POST["subscriberEmail"])) {
+		$email = $_POST["subscriberEmail"];
+		$query = $mysqli->prepare("INSERT INTO subscribers (email) VALUES (?)");
+		$query->bind_param('s', $email);
+		$query->execute();
+	}
 
 ?>
 
@@ -35,7 +35,7 @@
 		<link rel="manifest" href="/icons/manifest.json">
 		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#da284f">
 		<link rel="shortcut icon" href="/icons/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Palanquin+Dark:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Palanquin+Dark:700" rel="stylesheet">
 		<meta name="description" content="Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="apple-mobile-web-app-title" content="Hack Saint Louis">
@@ -63,72 +63,72 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<link href="css/stylesheet.css" rel="stylesheet">
-    <link href="css/profiles.css" rel="stylesheet">
+		<link href="css/profiles.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        var formSubmitted = function(success) {
-          if (success) {
-            $("#subscribe button").css("background-color", "#00CD00");
-            $("#subscribe button").css("border", "2px solid #00CD00");
-            $("#subscribe input").css("border", "2px solid #00CD00");
-            $("#subscribe button").html("thanks!");
-          } else {
-            $("#subscribe button").css("background-color", "red");
-            $("#subscribe button").css("border", "2px solid red");
-            $("#subscribe input").css("border", "2px solid red");
-            $("#subscribe button").html("error... try again?");
-          }
-        };
-        $("#subscribe button").click(function(){
-            var email = $("#subscribe input").val();
-            $.ajax({
-                type: 'POST',
-                data: {subscriberEmail: email},
-                success: function() {
-                  formSubmitted(true);
-                },
-                error: function() {
-                  formSubmitted(false);
-                }
-            });
-        });
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var formSubmitted = function(success) {
+					if (success) {
+						$("#subscribe button").css("background-color", "#00CD00");
+						$("#subscribe button").css("border", "2px solid #00CD00");
+						$("#subscribe input").css("border", "2px solid #00CD00");
+						$("#subscribe button").html("thanks!");
+					} else {
+						$("#subscribe button").css("background-color", "red");
+						$("#subscribe button").css("border", "2px solid red");
+						$("#subscribe input").css("border", "2px solid red");
+						$("#subscribe button").html("error... try again?");
+					}
+				};
+				$("#subscribe button").click(function(){
+						var email = $("#subscribe input").val();
+						$.ajax({
+								type: 'POST',
+								data: {subscriberEmail: email},
+								success: function() {
+									formSubmitted(true);
+								},
+								error: function() {
+									formSubmitted(false);
+								}
+						});
+				});
 
-        $(".loader").fadeOut(1000, "linear");
+				$(".loader").fadeOut(1000, "linear");
 
-        // disable enter key submitting form
-        $(window).keydown(function(event){
-          if(event.keyCode == 13) {
-            event.preventDefault();
-            return false;
-          }
-        });
-      });
-    </script>
+				// disable enter key submitting form
+				$(window).keydown(function(event){
+					if(event.keyCode == 13) {
+						event.preventDefault();
+						return false;
+					}
+				});
+			});
+		</script>
 	</head>
 	<body>
-    <div class="popup-message"></div>
+		<div class="popup-message"></div>
 		<div class="loader"></div>
 		<div id="massContainer">
 			<div class="panel" id="first">
-        <div id="title">
+				<div id="title">
 					 <img src="res/Logo.svg">
 					 <h1> Hack <br> Saint Louis </h1>
-        </div>
-        <div id="subtitle"> Oct. 13-15, 2017 / Some Fancy Venue </div>
-        <form autocomplete="off" id="subscribe">
-          <!-- note: these actually need to be on the same line -->
-          <input type="text" placeholder="email@example.com"><button type="button">get updates</button>
-        </form>
+				</div>
+				<div id="subtitle"> Oct. 13-15, 2017 / Some Fancy Venue </div>
+				<form autocomplete="off" id="subscribe">
+					<!-- note: these actually need to be on the same line -->
+					<input type="text" placeholder="email@example.com"><button type="button">get updates</button>
+				</form>
 				<div class="scroll"></div>
-      </div>
+			</div>
 			<div class="panel doubleddiagonal" id="second">
-        <h1>What is <span id="hsl">Hack Saint Louis</span>?</h1>
-        <p>
-        Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries. Over a weekend of rich learning and intense collaboration, you'll gain hands-on work experience and forge valuable connections with big-name companies, and you'll strengthen friendships and make lasting memories while you're at it. Whether you're a seasoned developer looking to hone your skills or a curious stranger to the computer science world, this is the place for you!
-        </p>
-      </div>
+				<h1>What is <span id="hsl">Hack Saint Louis</span>?</h1>
+				<p>
+				Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries. Over a weekend of rich learning and intense collaboration, you'll gain hands-on work experience and forge valuable connections with big-name companies, and you'll strengthen friendships and make lasting memories while you're at it. Whether you're a seasoned developer looking to hone your skills or a curious stranger to the computer science world, this is the place for you!
+				</p>
+			</div>
 			<div class="panel doubleddiagonal" id="third">
 				<h1 id="FAQ">Frequently Asked Questions</h1>
 				<ul class="FAQContainer">
@@ -162,31 +162,31 @@
 						<div class="Q"> <span> Do I need a team? </span> </div>
 						<div class="A"> <span> You can come with friends, colleagues, or come alone. If you don't have a team, we'll find you one.</span> </div>
 					</li>
-	        <li>
-	          <div class="Q"> <span> Where can I spend the night? </span> </div>
-	          <div class="A"> <span> You're free to come and go as you wish, so you can go home to sleep or book a hotel if you're not from the area. However, many people bring sleeping bags and spend the night in the venue. </span> </div>
-	        </li>
-	        <li>
-	          <div class="Q"> <span> Will food be provided? </span> </div>
-	          <div class="A"> <span> All meals will be provided, including snacks. </span> </div>
-	        </li>
-	        <li>
-	          <div class="Q"> <span> Will there be prizes? </span> </div>
-	          <div class="A"> <span> Yes! There will be cash prizes for the winners. <br> [more details later] </span> </div>
-	        </li>
-	        <li>
-	          <div class="Q"> <span> How are winners determined? </span> </div>
-	          <div class="A"> <span> Teams will present their projects on Sunday, the final day. From these presentations, a panel of judges will select the winners. </span> </div>
-	        </li>
+					<li>
+						<div class="Q"> <span> Where can I spend the night? </span> </div>
+						<div class="A"> <span> You're free to come and go as you wish, so you can go home to sleep or book a hotel if you're not from the area. However, many people bring sleeping bags and spend the night in the venue. </span> </div>
+					</li>
+					<li>
+						<div class="Q"> <span> Will food be provided? </span> </div>
+						<div class="A"> <span> All meals will be provided, including snacks. </span> </div>
+					</li>
+					<li>
+						<div class="Q"> <span> Will there be prizes? </span> </div>
+						<div class="A"> <span> Yes! There will be cash prizes for the winners. <br> [more details later] </span> </div>
+					</li>
+					<li>
+						<div class="Q"> <span> How are winners determined? </span> </div>
+						<div class="A"> <span> Teams will present their projects on Sunday, the final day. From these presentations, a panel of judges will select the winners. </span> </div>
+					</li>
 					<li>
 						<div class="Q"> <span> Still have questions? </span> </div>
 						<div class="A"> <span> Feel free to shoot us a message at <a href="mailto:info@hacksaintlouis.com">info@hacksaintlouis.com</a>. We're more than happy to answer questions. </span> </div>
 					</li>
-	      </ul>
+				</ul>
 			</div>
-      <!-- <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 100 C 20 0 50 0 100 100 Z"/>
-      </svg> -->
+			<!-- <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M0 100 C 20 0 50 0 100 100 Z"/>
+			</svg> -->
 			<div id="transitionTwo"> </div>
 			<div id="transitionOne"> </div>
 			<div class="panel" id="fourth">
@@ -198,13 +198,22 @@
 								<span class="scheduleListDayItem"> Friday </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 5:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 11:00am </span> <span class="thing"> Check in </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 6:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 11:45am </span> <span class="thing"> Opening ceremony </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 7:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 12:15pm </span> <span class="thing"> Hacking begins, lunch </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 2:30pm </span> <span class="thing"> Workshop </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 5:45pm </span> <span class="thing"> Dinner </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 7:15pm </span> <span class="thing"> Workshop </span>
 							</li>
 						</ul>
 					</div>
@@ -214,13 +223,25 @@
 								<span class="scheduleListDayItem"> Saturday </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 5:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 12:00am </span> <span class="thing"> Midnight snack </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 6:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 7:00am </span> <span class="thing"> Breakfast </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 7:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 8:30am </span> <span class="thing"> Workshop </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 12:15pm </span> <span class="thing"> Lunch </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 2:30pm </span> <span class="thing"> Workshop </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 5:45pm </span> <span class="thing"> Dinner </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 7:15pm </span> <span class="thing"> Workshop </span>
 							</li>
 						</ul>
 					</div>
@@ -230,13 +251,20 @@
 								<span class="scheduleListDayItem"> Sunday </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 5:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 12:00am </span> <span class="thing"> Midnight snack </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 6:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 7:00am </span> <span class="thing"> Breakfast </span>
+							</li>
+							<!-- no workshop, just 5 hours of last-minute hacking -->
+							<li class="scheduleListItem">
+								<span class="time"> 12:15pm </span> <span class="thing"> Hacking closes </span>
 							</li>
 							<li class="scheduleListItem">
-								<span class="time"> 7:00pm </span> <span class="thing"> Check in </span>
+								<span class="time"> 12:30pm </span> <span class="thing"> Judging begins </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 1:30pm </span> <span class="thing"> Closing ceremony </span>
 							</li>
 						</ul>
 					</div>
@@ -249,13 +277,13 @@
 			</div>
 		</div>
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-60578824-3', 'auto');
-		  ga('send', 'pageview');
+			ga('create', 'UA-60578824-3', 'auto');
+			ga('send', 'pageview');
 
 		</script>
 	</body>
