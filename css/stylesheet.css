@@ -216,6 +216,7 @@ body {
 	padding: 10px;
 	margin: 2%;
 	border-radius: 3px;
+	border-left: 8px solid #949494;
 }
 .FAQContainer li .Q span {
 	font-family: "BigJohn";
@@ -241,7 +242,7 @@ body {
 }*/
 #fourth {
 	width: 100vw;
-	height: 100vh;
+	height: auto;
 	background-color:#DA284F;
 	position: relative;
 	z-index: 1;
@@ -276,4 +277,18 @@ body {
 }
 .scheduleListDay {
 	background-color: #e8e8e8 !important;
+}
+#fifth {
+	background-color: #e5e5e5;
+	width: 100vw;
+	height: auto;
+	min-height: 80vh;
+	position: relative;
+	z-index: 1;
+}
+#TSponsors {
+	font-family: "BigJohn";
+	color: #DA284F;
+	font-size: 4em;
+	margin-top: 20px;
 }

@@ -227,62 +227,11 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="panel" id="fifth"> 
-				Sponsors
-        <ul class="ch-grid">
-        <li><div class="ch-item ch-img-1">
-          <div class="ch-info">
-            <h3>Michael Gira</h3>
-            <p>Senior Memer
-              <br>
-              <a href="https://github.com/michaelgira23">GitHub Profile</a>
-              <br>
-              <a href="https://www.linkedin.com/in/michael-gira/">LinkedIn Profile</a>
-            </p>
-          </div>
-        </div></li>
-        <li><div class="ch-item ch-img-2">
-          <div class="ch-info">
-            <h3>Bob Sforza</h3>
-              <p>Highly Specialized Beekeeper
-               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-              </p>
-          </div>
-        </div></li>
-        <li><div class="ch-item ch-img-3">
-          <div class="ch-info">
-            <h3>Nick Clifford</h3>
-            <p>Nickle Counter
-               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-            </p>
-          </div>
-        </div></li>
-        <li><div class="ch-item ch-img-4">
-          <div class="ch-info">
-            <h3>Sidd Mehta</h3>
-            <p>Meme Investor
-               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-            </p>
-          </div>
-        </div></li>
-        <li><div class="ch-item ch-img-5">
-          <div class="ch-info">
-            <h3>Jack Cai</h3>
-            <p>Designated Brawlhalla Player
-               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-            </p>
-          </div>
-        </div></li>
-        <li><div class="ch-item ch-img-6">
-          <div class="ch-info">
-            <h3>Michel Ge</h3>
-            <p>Name Maker Uper
-               <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn Profile</a>
-            </p>
-          </div>
-        </div></li>
-      </ul>
-			</div> -->
+			<div id="transitionOne"> </div>
+			<div id="transitionTwo"> </div>
+			<div class="panel" id="fifth">
+				<h1 id="TSponsors">Sponsors</h1>
+			</div>
 		</div>
 	</body>
 </html>
