@@ -111,12 +111,10 @@
 			<div class="panel doubleddiagonal" id="second">
         <h1>What is <span id="hsl">Hack Saint Louis</span>?</h1>
         <p>
-        Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries. Over a weekend of rich learning and intense collaboration, you'll gain hands-on work experience and forge valuable connections with big-name companies, and you'll strengthen friendships and make lasting memories while you're at it. Whether you're a seasoned developer looking to hone your skills or a curious stranger to the computer science world, this is a place for you!
+        Hack Saint Louis challenges students to build a hardware or software project in 48 hours, bringing together programmers, designers, leaders and visionaries. Over a weekend of rich learning and intense collaboration, you'll gain hands-on work experience and forge valuable connections with big-name companies, and you'll strengthen friendships and make lasting memories while you're at it. Whether you're a seasoned developer looking to hone your skills or a curious stranger to the computer science world, this is the place for you!
         </p>
       </div>
-			<div id="transitionOne"> </div>
-			<div id="transitionTwo"> </div>
-			<div class="panel" id="third">
+			<div class="panel doubleddiagonal" id="third">
 				<h1 id="FAQ">Frequently Asked Questions</h1>
 				<ul class="FAQContainer">
 					<li>
@@ -136,50 +134,102 @@
 						<div class="Q"> <span> How much does Hack Saint Louis cost? </span> </div>
 						<div class="A"> <span> It's entirely free! </span> </div>
 					</li>
-				<li>
-					<div class="Q"> <span> When and where is Hack Saint Louis? </span> </div>
-					<div class="A"> <span> The event will be held at the beautiful ___. Check in starts at 5:00pm on Oct. 13 and we'll close up shop around 3:00pm on Oct. 15.</span> </div>
-				</li>
-				<li>
-					<div class="Q"> <span> Do you offer travel reimbursement? </span> </div>
-					<div class="A"> <span> Unfortunately, we cannot guarantee travel reimbursement at this time. We'll update this page if that changes.</span> </div>
-				</li>
-				<br>
-				<li>
-					<div class="Q"> <span> Do I need a team? </span> </div>
-					<div class="A"> <span> You can come with friends, colleagues, or come alone. If you don't have a team, we'll find you one.</span> </div>
-				</li>
-        <li>
-          <div class="Q"> <span> Where can I spend the night? </span> </div>
-          <div class="A"> <span> You're free to come and go as you wish, so you can go home to sleep or book a hotel if you're not from the area. However, many people bring sleeping bags and spend the night in the venue. </span> </div>
-        </li>
-        <li>
-          <div class="Q"> <span> Will food be provided? </span> </div>
-          <div class="A"> <span> All meals will be provided, including snacks. </span> </div>
-        </li>
-        <li>
-          <div class="Q"> <span> Will there be prizes? </span> </div>
-          <div class="A"> <span> Yes! There will be cash prizes for the winners. [more details later] </span> </div>
-        </li>
-        <li>
-          <div class="Q"> <span> How are winners determined? </span> </div>
-          <div class="A"> <span> Teams will present their projects on Sunday, the final day. From these presentations, a panel of judges will select the winners. </span> </div>
-        </li>
-				<li>
-					<div class="Q"> <span> Still have questions? </span> </div>
-					<div class="A"> <span> Feel free to shoot us a message at <a href="mailto:info@hacksaintlouis.com">info@hacksaintlouis.com</a>. We're more than happy to answer questions. </span> </div>
-				</li>
-      </ul>
+					<li>
+						<div class="Q"> <span> When and where is Hack Saint Louis? </span> </div>
+						<div class="A"> <span> The event will be held at the beautiful ___. Check in starts at 5:00pm on Oct. 13 and we'll close up shop around 3:00pm on Oct. 15.</span> </div>
+					</li>
+					<li>
+						<div class="Q"> <span> Do you offer travel reimbursement? </span> </div>
+						<div class="A"> <span> Unfortunately, we cannot guarantee travel reimbursement at this time. We'll update this page if that changes.</span> </div>
+					</li>
+					<br>
+					<li>
+						<div class="Q"> <span> Do I need a team? </span> </div>
+						<div class="A"> <span> You can come with friends, colleagues, or come alone. If you don't have a team, we'll find you one.</span> </div>
+					</li>
+	        <li>
+	          <div class="Q"> <span> Where can I spend the night? </span> </div>
+	          <div class="A"> <span> You're free to come and go as you wish, so you can go home to sleep or book a hotel if you're not from the area. However, many people bring sleeping bags and spend the night in the venue. </span> </div>
+	        </li>
+	        <li>
+	          <div class="Q"> <span> Will food be provided? </span> </div>
+	          <div class="A"> <span> All meals will be provided, including snacks. </span> </div>
+	        </li>
+	        <li>
+	          <div class="Q"> <span> Will there be prizes? </span> </div>
+	          <div class="A"> <span> Yes! There will be cash prizes for the winners. <br> [more details later] </span> </div>
+	        </li>
+	        <li>
+	          <div class="Q"> <span> How are winners determined? </span> </div>
+	          <div class="A"> <span> Teams will present their projects on Sunday, the final day. From these presentations, a panel of judges will select the winners. </span> </div>
+	        </li>
+					<li>
+						<div class="Q"> <span> Still have questions? </span> </div>
+						<div class="A"> <span> Feel free to shoot us a message at <a href="mailto:info@hacksaintlouis.com">info@hacksaintlouis.com</a>. We're more than happy to answer questions. </span> </div>
+					</li>
+	      </ul>
 			</div>
-      <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <!-- <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
         <path d="M0 100 C 20 0 50 0 100 100 Z"/>
-      </svg>
+      </svg> -->
+			<div id="transitionTwo"> </div>
+			<div id="transitionOne"> </div>
 			<div class="panel" id="fourth">
-				<!-- Sponsors -->
+				<h1 id="FSchedule">Schedule</h1>
+				<div id="scheduleContainer">
+					<div class="day" id="friday">
+						<ul class="scheduleListContainer">
+							<li class="scheduleListDay scheduleListItem">
+								<span class="scheduleListDayItem"> Friday </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 5:00pm </span> <span class="thing"> Check in </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 6:00pm </span> <span class="thing"> Check in </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 7:00pm </span> <span class="thing"> Check in </span>
+							</li>
+						</ul>
+					</div>
+					<div class="day" id="saturday">
+						<ul class="scheduleListContainer">
+							<li class="scheduleListDay scheduleListItem">
+								<span class="scheduleListDayItem"> Saturday </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 5:00pm </span> <span class="thing"> Check in </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 6:00pm </span> <span class="thing"> Check in </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 7:00pm </span> <span class="thing"> Check in </span>
+							</li>
+						</ul>
+					</div>
+					<div class="day" id="sunday">
+						<ul class="scheduleListContainer">
+							<li class="scheduleListDay scheduleListItem">
+								<span class="scheduleListDayItem"> Sunday </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 5:00pm </span> <span class="thing"> Check in </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 6:00pm </span> <span class="thing"> Check in </span>
+							</li>
+							<li class="scheduleListItem">
+								<span class="time"> 7:00pm </span> <span class="thing"> Check in </span>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="panel" id="fifth">
-				<!-- The team? -->
-<!--         <ul class="ch-grid">
+			<!-- <div class="panel" id="fifth"> 
+				Sponsors
+        <ul class="ch-grid">
         <li><div class="ch-item ch-img-1">
           <div class="ch-info">
             <h3>Michael Gira</h3>
@@ -231,8 +281,8 @@
             </p>
           </div>
         </div></li>
-      </ul> -->
-			</div>
+      </ul>
+			</div> -->
 		</div>
 	</body>
 </html>

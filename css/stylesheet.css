@@ -55,7 +55,8 @@ body {
 #first {
 	/*position: fixed; PARALLAX*/
 	width: 100vw;
-	height: 102vh;
+	min-height: 80vh;
+	height: auto;
 	background-color: #ffffff;
 	overflow: hidden;
 }
@@ -151,7 +152,8 @@ body {
 #second {
 	/*margin-top: 100vh; PARALLAX*/
 	width: 100vw;
-	height: 80vh;
+	height: auto;
+	padding: 11.25vh 10vw 21.25vh 10vw;
 	background-color: #DA284F;
 	position: relative;
 	z-index: 1;
@@ -178,7 +180,8 @@ body {
 
 #third {
 	width: 100vw;
-	height: 240vh;
+	height: auto;
+	padding: 10vh 5vw;
 	background-color: #e5e5e5;
 	position: relative;
 	z-index: 1;
@@ -208,10 +211,11 @@ body {
 }
 .FAQContainer li {
 	list-style-type: none;
-	background-color: white;
+	background-color: #d8d8d8;
 	width: 28%;
 	padding: 10px;
 	margin: 2%;
+	border-radius: 3px;
 }
 .FAQContainer li .Q span {
 	font-family: "BigJohn";
@@ -228,17 +232,48 @@ body {
 
 /* FOURTH PANEL */
 
-#curveUpColor {
+/*#curveUpColor {
 	background-color: #e5e5e5;
 }
 #curveUpColor path {
 	fill: #2980B9;
 	stroke: #2980B9;
-}
+}*/
 #fourth {
 	width: 100vw;
 	height: 100vh;
-	background-color: #2980B9;
+	background-color:#DA284F;
 	position: relative;
 	z-index: 1;
+}
+#FSchedule {
+	font-family: "BigJohn";
+	color: #e5e5e5;
+	font-size: 4em;
+	margin-top: 20px;
+}
+#scheduleContainer {
+	margin-top: 4em;
+}
+#scheduleContainer div .scheduleListContainer {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+}
+#scheduleContainer div .scheduleListContainer .scheduleListItem {
+	background-color: rgba(229, 229, 229, 0.79);
+	padding: 10px;
+	margin: 0 2%;
+	width: 100%;
+}
+#scheduleContainer div .scheduleListContainer .scheduleListItem .time, .scheduleListDay {
+	font-family: "BigJohn";
+	color: black;
+}
+.day {
+	display: flex;
+	flex-direction: row;
+}
+.scheduleListDay {
+	background-color: #e8e8e8 !important;
 }
