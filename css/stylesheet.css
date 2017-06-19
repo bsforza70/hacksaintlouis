@@ -214,15 +214,16 @@ body {
 	margin-top: 20px;
 }
 .FAQContainer {
+	margin-top: 35px;
 	display: flex;
+	flex-flow: row wrap;
 }
 .FAQContainer li {
 	list-style-type: none;
-	width: 30%;
-	height: 20%;
-	margin: 2%;
 	background-color: white;
+	width: 28%;
 	padding: 10px;
+	margin: 2%;
 }
 .FAQContainer li .Q span {
 	font-family: "BigJohn";
