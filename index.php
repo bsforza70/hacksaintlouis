@@ -50,7 +50,8 @@
 		<meta name="geo.region" content="US-MO">
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@hacksaintlouis">
-		<meta name="twitter:title" content="Hack Saint Louis">\
+		<meta name="twitter:title" content="Hack Saint Louis">
+		<meta name="twitter:image" content="http://hacksaintlouis.com/res/Logo.svg" />
 		<meta property="og:title" content="Hack Saint Louis" />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="http://hacksaintlouis.com" />
