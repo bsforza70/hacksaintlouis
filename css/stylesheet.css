@@ -50,6 +50,20 @@ body {
 	pointer-events: none;
 }
 
+@media (max-width: 503px) {
+	h1:not(#title) {
+		font-size: 2.5em !important;
+	}
+
+	#header #title {
+		font-size: 3.5em !important;
+	}
+
+	#subtitle {
+		font-size: 1.5em !important;
+	}
+}
+
 /* FIRST PANEL - TITLE */
 
 #first {
@@ -60,7 +74,7 @@ body {
 	background-color: #ffffff;
 	overflow: hidden;
 }
-#title {
+#header {
 	margin-top: 3em;
 	display: flex;
 	justify-content: center;
@@ -68,7 +82,7 @@ body {
 	flex-wrap: wrap-reverse;
 }
 /* logo */
-#title img {
+#header img {
 	width: 15%;
 	min-width: 10rem;
 	height: auto;
@@ -76,7 +90,7 @@ body {
 	float: right;
 }
 /* hack saint louis */
-#title h1 {
+#header #title {
 	font-family: 'Palanquin Dark', sans-serif;
 	z-index: 10;
 	font-size: 4em;
@@ -86,7 +100,7 @@ body {
 	text-align: center;
 }
 @media (min-width: 621px) {
-	#title h1 {
+	#header #title {
 		text-align: left;
 	}
 }

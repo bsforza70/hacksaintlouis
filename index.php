@@ -112,9 +112,9 @@
 		<div class="loader"></div>
 		<div id="massContainer">
 			<div class="panel" id="first">
-				<div id="title">
-					 <img src="res/Logo.svg">
-					 <h1> Hack <br> Saint Louis </h1>
+				<div id="header">
+					<img src="res/Logo.svg">
+					<h1 id="title"> Hack <br> Saint Louis </h1>
 				</div>
 				<div id="subtitle"> Oct. 13-15, 2017 / Some Fancy Venue </div>
 				<form autocomplete="off" id="subscribe">
