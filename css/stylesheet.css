@@ -246,6 +246,7 @@ body {
 	background-color:#DA284F;
 	position: relative;
 	z-index: 1;
+	padding: 10vh;
 }
 #FSchedule {
 	font-family: "BigJohn";
@@ -267,10 +268,12 @@ body {
 	background-color: rgba(229, 229, 229, 0.79);
 	padding: 10px;
 	width: 100%;
+	text-align: left;
 }
 #scheduleContainer div .scheduleListContainer .scheduleListItem .time, .scheduleListDay {
 	font-family: "BigJohn";
 	color: black;
+	text-align: center !important;
 }
 .day {
 	display: flex;
