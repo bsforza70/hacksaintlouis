@@ -11,7 +11,7 @@
 		transform: translate3d(0,-320px,0);
 	}
 }
-body {
+html, body {
 	overflow-x: hidden;
 }
 .loader {

@@ -27,6 +27,8 @@
 
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Hack Saint Louis</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
@@ -44,7 +46,6 @@
 		<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
 		<meta name="msapplication-config" content="/icons/browserconfig.xml">
 		<meta name="theme-color" content="#da284f">
-		<meta name=viewport content="width=device-width, initial-scale=1">
 		<meta name="geo.position" content="38.624306;-90.187127">
 		<meta name="geo.placename" content="Saint Louis, MO">
 		<meta name="geo.region" content="US-MO">
@@ -65,8 +66,8 @@
 		<link href="css/stylesheet.css" rel="stylesheet">
 		<link href="css/profiles.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
 			$(document).ready(function(){
 				var formSubmitted = function(success) {
 					if (success) {
