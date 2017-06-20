@@ -140,7 +140,6 @@
 						<div class="Q"> <span> I'm new to programming, can I still come? </span> </div>
 						<div class="A"> <span> Yes! Hack Saint Louis is a place to learn, experiment, and have fun. We'll also have mentors at the event who can answer questions and give crash courses. Remember, everyone starts somewhere.</span> </div>
 					</li>
-					<br>
 					<li>
 						<div class="Q"> <span> What should I bring? </span> </div>
 						<div class="A"> <span> Bring a computer, a valid student ID, and a great attitude. Everything else (food, swag, and love) will be provided. </span> </div>
@@ -157,7 +156,6 @@
 						<div class="Q"> <span> Do you offer travel reimbursement? </span> </div>
 						<div class="A"> <span> Unfortunately, we cannot guarantee travel reimbursement at this time. We'll update this page if that changes.</span> </div>
 					</li>
-					<br>
 					<li>
 						<div class="Q"> <span> Do I need a team? </span> </div>
 						<div class="A"> <span> You can come with friends, colleagues, or come alone. If you don't have a team, we'll find you one.</span> </div>
@@ -192,82 +190,76 @@
 			<div class="panel" id="fourth">
 				<h1 id="FSchedule">Schedule</h1>
 				<div id="scheduleContainer">
-					<div class="day" id="friday">
-						<ul class="scheduleListContainer">
-							<li class="scheduleListDay scheduleListItem">
-								<span class="scheduleListDayItem"> Friday </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 11:00am </span> <span class="thing"> Check in </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 11:45am </span> <span class="thing"> Opening ceremony </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 12:15pm </span> <span class="thing"> Hacking begins, lunch </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 2:30pm </span> <span class="thing"> Workshop </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 5:45pm </span> <span class="thing"> Dinner </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 7:15pm </span> <span class="thing"> Workshop </span>
-							</li>
-						</ul>
-					</div>
-					<div class="day" id="saturday">
-						<ul class="scheduleListContainer">
-							<li class="scheduleListDay scheduleListItem">
-								<span class="scheduleListDayItem"> Saturday </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 12:00am </span> <span class="thing"> Midnight snack </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 7:00am </span> <span class="thing"> Breakfast </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 8:30am </span> <span class="thing"> Workshop </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 12:15pm </span> <span class="thing"> Lunch </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 2:30pm </span> <span class="thing"> Workshop </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 5:45pm </span> <span class="thing"> Dinner </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 7:15pm </span> <span class="thing"> Workshop </span>
-							</li>
-						</ul>
-					</div>
-					<div class="day" id="sunday">
-						<ul class="scheduleListContainer">
-							<li class="scheduleListDay scheduleListItem">
-								<span class="scheduleListDayItem"> Sunday </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 12:00am </span> <span class="thing"> Midnight snack </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 7:00am </span> <span class="thing"> Breakfast </span>
-							</li>
-							<!-- no workshop, just 5 hours of last-minute hacking -->
-							<li class="scheduleListItem">
-								<span class="time"> 12:15pm </span> <span class="thing"> Hacking closes </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 12:30pm </span> <span class="thing"> Judging begins </span>
-							</li>
-							<li class="scheduleListItem">
-								<span class="time"> 1:30pm </span> <span class="thing"> Closing ceremony </span>
-							</li>
-						</ul>
-					</div>
+					<ul id="friday" class="scheduleListContainer">
+						<li class="scheduleListDay scheduleListItem">
+							<span class="scheduleListDayItem"> Friday </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 11:00am </span> <span class="thing"> Check in </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 11:45am </span> <span class="thing"> Opening ceremony </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 12:15pm </span> <span class="thing"> Hacking begins, lunch </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 2:30pm </span> <span class="thing"> Workshop </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 5:45pm </span> <span class="thing"> Dinner </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 7:15pm </span> <span class="thing"> Workshop </span>
+						</li>
+					</ul>
+					<ul id="saturday" class="scheduleListContainer">
+						<li class="scheduleListDay scheduleListItem">
+							<span class="scheduleListDayItem"> Saturday </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 12:00am </span> <span class="thing"> Midnight snack </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 7:00am </span> <span class="thing"> Breakfast </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 8:30am </span> <span class="thing"> Workshop </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 12:15pm </span> <span class="thing"> Lunch </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 2:30pm </span> <span class="thing"> Workshop </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 5:45pm </span> <span class="thing"> Dinner </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 7:15pm </span> <span class="thing"> Workshop </span>
+						</li>
+					</ul>
+					<ul id="sunday" class="scheduleListContainer">
+						<li class="scheduleListDay scheduleListItem">
+							<span class="scheduleListDayItem"> Sunday </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 12:00am </span> <span class="thing"> Midnight snack </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 7:00am </span> <span class="thing"> Breakfast </span>
+						</li>
+						<!-- no workshop, just 5 hours of last-minute hacking -->
+						<li class="scheduleListItem">
+							<span class="time"> 12:15pm </span> <span class="thing"> Hacking closes </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 12:30pm </span> <span class="thing"> Judging begins </span>
+						</li>
+						<li class="scheduleListItem">
+							<span class="time"> 1:30pm </span> <span class="thing"> Closing ceremony </span>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div id="transitionOne"> </div>

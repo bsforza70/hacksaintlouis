@@ -65,11 +65,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	text-align: left;
+	flex-wrap: wrap-reverse;
 }
 /* logo */
 #title img {
 	width: 15%;
+	min-width: 10rem;
 	height: auto;
 	z-index: 2;
 	float: right;
@@ -79,7 +80,15 @@ body {
 	font-family: 'Palanquin Dark', sans-serif;
 	z-index: 10;
 	font-size: 4em;
+	display: inline-block;
+	margin-top: auto;
 	padding: 0 !important;
+	text-align: center;
+}
+@media (min-width: 621px) {
+	#title h1 {
+		text-align: left;
+	}
 }
 /* place and time */
 #subtitle {
@@ -89,13 +98,13 @@ body {
 	position: relative;
 }
 #subscribe {
-	margin-top: 5em;
+	margin: 5em 0;
 }
 #subscribe input, #subscribe button {
 	font-family: 'Roboto Mono', monospace;
 	height: 50px;
-	width: auto;
 	z-index: 10;
+	width: 100%;
 	position: relative;
 	padding-right: 1.5em;
 	padding-left: 1.5em;
@@ -104,6 +113,11 @@ body {
 #subscribe button {
 	background: #DA284F;
 	transition: color .25s;
+}
+@media (min-width: 522px) {
+	#subscribe button, #subscribe input {
+		width: auto;
+	}
 }
 #subscribe input:focus, #subscribe button:focus {
 	outline: none;
@@ -206,15 +220,19 @@ body {
 }
 .FAQContainer {
 	margin-top: 35px;
+	padding: 0;
 	display: flex;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
 }
 .FAQContainer li {
+	flex-basis: 0;
+	flex-grow: 1;
 	list-style-type: none;
 	background-color: #d8d8d8;
 	width: 28%;
+	min-width: 15rem;
 	padding: 10px;
-	margin: 2%;
+	margin: 2% 2% 2rem;
 	border-radius: 3px;
 	border-left: 8px solid #949494;
 }
@@ -256,33 +274,29 @@ body {
 }
 #scheduleContainer {
 	margin-top: 4em;
+	padding-right: 2%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
-#scheduleContainer div .scheduleListContainer {
+#scheduleContainer .scheduleListContainer {
 	list-style-type: none;
+	min-width: 15rem;
+	margin-right: 2%;
 	padding: 0;
-	width: 100%;
-}
-#scheduleContainer div .scheduleListContainer .scheduleListItem {
+	flex-basis: 0;
+	flex-grow: 1;
 	background-color: rgba(229, 229, 229, 0.79);
+}
+#scheduleContainer .scheduleListContainer .scheduleListItem {
 	padding: 10px;
 	width: 100%;
 	text-align: left;
 }
-#scheduleContainer div .scheduleListContainer .scheduleListItem .time, .scheduleListDay {
+#scheduleContainer .scheduleListContainer .scheduleListItem .time, .scheduleListDay {
 	font-family: "BigJohn";
 	color: black;
 	text-align: center !important;
-}
-.day {
-	display: flex;
-	flex-direction: row;
-	flex-basis: 0;
-	flex-grow: 1;
-}
-.day:not(:last-child) {
-	margin-right: 2%;
 }
 .scheduleListDay {
 	background-color: #e8e8e8 !important;
