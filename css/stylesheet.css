@@ -306,6 +306,7 @@ html, body {
 }
 #scheduleContainer .scheduleListContainer .scheduleListItem {
 	padding: 10px;
+	font-size: 1.25em;
 	width: 100%;
 	text-align: left;
 }
