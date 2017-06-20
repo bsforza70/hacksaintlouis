@@ -154,11 +154,18 @@ html, body {
 	animation: scrolling 10s linear infinite;
 	opacity: .5;
 }
+.doubleddiagonal {
+	position: relative;
+}
+.doubleddiagonal > * {
+	position: relative;
+	z-index: 5;
+}
 .doubleddiagonal::before,
 .doubleddiagonal::after {
+	position: absolute;
 	top: 0;
 	left: -25%;
-	z-index: 1;
 	width: 125.25%;
 	height: 75%;
 	background: inherit;
@@ -167,6 +174,9 @@ html, body {
 	-webkit-transform-origin: 0 0;
 	transform-origin: 0 0;
 }
+.doubleddiagonal::before {
+	z-index: 2;
+}
 .doubleddiagonal::after {
 	height: 50%;
 	background: #9e1331;
@@ -174,7 +184,7 @@ html, body {
 	transform: rotate(-4deg);
 	-webkit-transform-origin: 3% 0;
 	transform-origin: 3% 0;
-	z-index: 0;
+	z-index: 1;
 }
 
 /* SECOND PANEL */
