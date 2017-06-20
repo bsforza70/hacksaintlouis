@@ -12,6 +12,7 @@
 	}
 }
 body {
+	width: 100%;
 	overflow-x: hidden;
 }
 .loader {
@@ -30,12 +31,6 @@ body {
 @font-face {
 	font-family: SlimJoe;
 	src: url('../res/SlimJoe.otf');
-}
-#massContainer {
-	width: 100vw;
-	height: 100vh;
-	position: relative;
-	overflow-x: hidden;
 }
 .panel {
 	position: relative;
@@ -166,7 +161,7 @@ body {
 	-webkit-transform-origin: 0 0;
 	transform-origin: 0 0;
 }
-.doubleddiagonal::before {
+.doubleddiagonal::after {
 	height: 50%;
 	background: #9e1331;
 	-webkit-transform: rotate(-4deg);
