@@ -134,6 +134,9 @@
 			<form autocomplete="off" id="subscribe">
 				<!-- note: these actually need to be on the same line -->
 				<input type="text" placeholder="email@example.com"><button type="button">get updates</button>
+				<!-- <a class="typeform-share link" href="https://bob374.typeform.com/to/JKTflm" data-mode="1" target="_blank">Launch me!</a>
+				<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm_share',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+				These two lines are the Typeform register thingydo, we'll eventually switch. -->
 			</form>
 			<div class="scroll"></div>
 		</div>
