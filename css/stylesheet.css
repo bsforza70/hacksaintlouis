@@ -194,9 +194,11 @@ html, body {
 	width: 100vw;
 	height: auto;
 	padding: 11.25vh 10vw 21.25vh 10vw;
-	background-color: #DA284F;
 	position: relative;
 	z-index: 1;
+	background-color:#DA284F !important;
+	background: url("../res/absurdity.png");
+	background-repeat: repeat;
 }
 #second h1 {
 	text-align: center;
@@ -222,9 +224,11 @@ html, body {
 	width: 100vw;
 	height: auto;
 	padding: 10vh 5vw;
-	background-color: #e5e5e5;
 	position: relative;
 	z-index: 1;
+	background-color:#E5E5E5 !important;
+	background: url("../res/reticular.png");
+	background-repeat: repeat;
 }
 #transitionOne {
 	width: 100vw;
@@ -287,10 +291,12 @@ html, body {
 #fourth {
 	width: 100vw;
 	height: auto;
-	background-color:#DA284F;
 	position: relative;
 	z-index: 1;
 	padding: 10vh;
+	background-color:#DA284F !important;
+	background: url("../res/asfalt.png");
+	background-repeat: repeat;
 }
 #FSchedule {
 	font-family: "BigJohn";
