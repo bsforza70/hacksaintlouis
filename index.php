@@ -77,7 +77,7 @@
 		        };
 				var formSubmitted = function(status) {
 					if (status === 0) {
-		           		var success = "<p> Thanks! </p>";
+		           		var success = "<p> Thanks! You'll hear from us soon. </p>";
 						$("#subscribe button").replaceWith(success);
 						$("#subscribe input").remove();
 					} else if (status === 1) {
