@@ -23,10 +23,10 @@ html, body {
 	z-index: 9999;
 	background: url('../res/loading.gif') 50% 50% no-repeat #ffffff;
 }
-@font-face {
+/*@font-face {
 	font-family: BigJohn;
 	src: url('../res/BIGJOHN.otf');
-}
+}*/
 @font-face {
 	font-family: SlimJoe;
 	src: url('../res/SlimJoe.otf');
@@ -243,7 +243,7 @@ html, body {
 	top: 0;
 }
 #FAQ {
-	font-family: "BigJohn";
+	font-family: 'Palanquin Dark', sans-serif;
 	color: #DA284F;
 	font-size: 4em;
 	margin-top: 20px;
@@ -267,7 +267,7 @@ html, body {
 	border-left: 8px solid #949494;
 }
 .FAQContainer li .Q span {
-	font-family: "BigJohn";
+	font-family: 'Palanquin Dark', sans-serif;
 	color: black;
 	margin-top: 10px;
 }
@@ -299,7 +299,7 @@ html, body {
 	background-repeat: repeat;
 }
 #FSchedule {
-	font-family: "BigJohn";
+	font-family: 'Palanquin Dark', sans-serif;
 	color: #e5e5e5;
 	font-size: 4em;
 	margin-top: 20px;
@@ -327,7 +327,7 @@ html, body {
 	text-align: left;
 }
 #scheduleContainer .scheduleListContainer .scheduleListItem .time, .scheduleListDay {
-	font-family: "BigJohn";
+	font-family: 'Palanquin Dark', sans-serif;
 	color: black;
 	text-align: center !important;
 }
@@ -343,7 +343,7 @@ html, body {
 	z-index: 1;
 }
 #TSponsors {
-	font-family: "BigJohn";
+	font-family: 'Palanquin Dark', sans-serif;
 	color: #DA284F;
 	font-size: 4em;
 	margin-top: 20px;
