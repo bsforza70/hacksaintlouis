@@ -2,7 +2,7 @@
 /*font-family: "SlimJoe";*/
 /*font-family: 'Roboto Mono', monospace;*/
 /*font-family: 'Palanquin Dark', sans-serif;*/
-/*Main Red Color: D12343*/
+/*Main Red Color: DA284F*/
 @-webkit-keyframes scrolling {
 	0% {
 		transform: translate3d(0,0,0);
@@ -116,10 +116,10 @@ html, body {
 	position: relative;
 	padding-right: 1.5em;
 	padding-left: 1.5em;
-	border: 2px solid #D12343;
+	border: 2px solid #DA284F;
 }
 #subscribe button {
-	background: #D12343;
+	background: #DA284F;
 	transition: color .25s;
 }
 #subscribe p {
@@ -196,7 +196,7 @@ html, body {
 	padding: 11.25vh 10vw 21.25vh 10vw;
 	position: relative;
 	z-index: 1;
-	background-color:#D12343 !important;
+	background-color:#DA284F !important;
 	background: url("../res/absurdity.png");
 	background-repeat: repeat;
 }
@@ -244,7 +244,7 @@ html, body {
 }
 #FAQ {
 	font-family: "BigJohn";
-	color: #D12343;
+	color: #DA284F;
 	font-size: 4em;
 	margin-top: 20px;
 }
@@ -294,7 +294,7 @@ html, body {
 	position: relative;
 	z-index: 1;
 	padding: 10vh;
-	background-color:#D12343 !important;
+	background-color:#DA284F !important;
 	background: url("../res/asfalt.png");
 	background-repeat: repeat;
 }
@@ -344,7 +344,7 @@ html, body {
 }
 #TSponsors {
 	font-family: "BigJohn";
-	color: #D12343;
+	color: #DA284F;
 	font-size: 4em;
 	margin-top: 20px;
 }
